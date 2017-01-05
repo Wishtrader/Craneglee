@@ -732,6 +732,8 @@ a.button3:hover {
 .upArrow {
     position: fixed;
     bottom: 20px;
+    width: 60px;
+    height: 60px;
     right: 20px;
     border: 1px solid #fff;
     background-color: #3498DB;
@@ -823,6 +825,14 @@ a.button3:hover {
     width: 400px;
     margin-left: auto;
     margin-right: auto;
+
+    .inputText {
+
+        &:focus {
+            outline: none;
+        }
+
+    }
 }
 
 input {
@@ -886,6 +896,35 @@ input:valid ~ .label-box label {
 input:focus ~ .label-box::before,
 input:focus ~ .label-box::after {
     width: 50%;
+}
+
+input {
+
+    &.submitBtn {
+     -webkit-transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+    transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
+    display: block;
+    margin: 20px auto;
+    max-width: 180px;
+    text-decoration: none;
+    border-radius: 2px;
+    padding: 10px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #fff;
+    cursor: pointer;
+    color: #9B59B6;
+    box-shadow: #9B59B6 0 0px 0px 2px inset;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: none;
+    font-size: 16px;
+   
+        &:hover {
+            color: rgba(255, 255, 255, 0.85);
+            box-shadow: #9B59B6 0 80px 0px 2px inset;
+        }
+    }
 }
 
 .contactWrapper {

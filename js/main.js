@@ -12,12 +12,15 @@ $(document).ready(function() {
     $(".projectCard h5").eq(2).text("Speedyvenues");
 
 
-    $(".coverImg").eq(3).css("background-image", "url(img/bath01.png)");
-    $(".coverImg").eq(4).css("background-image", "url(img/bath01.png)");
+    $(".coverImg").eq(3).css("background-image", "url(img/interdezign.png)");
+    $(".projectCard h5").eq(3).text("Interdezign");
+
+    $(".coverImg").eq(4).css("background-image", "url(img/vesta.png)");
+    $(".projectCard h5").eq(4).text("Vesta");
 
 
-    $(".coverImg").eq(5).css("background-image", "url(img/bath01.png)");
-    $(".projectCard h5").eq(5).text("Speedyvenues");
+    $(".coverImg").eq(5).css("background-image", "url(img/greenwood.png)");
+    $(".projectCard h5").eq(5).text("Puricogreenwood");
 
 
 
@@ -25,8 +28,8 @@ $(document).ready(function() {
     $(".projectCard h5").eq(6).text("Kickasshandiman");
 
 
-    $(".coverImg").eq(7).css("background-image", "url(img/bath01.png)");
-    $(".projectCard h5").eq(7).text("Bathright");
+    $(".coverImg").eq(7).css("background-image", "url(img/azteca.png)");
+    $(".projectCard h5").eq(7).text("Aztecalight");
 
 
 });
